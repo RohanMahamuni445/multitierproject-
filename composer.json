@@ -1,0 +1,14 @@
+{
+    "name": "multi-tier-php-app",
+    "description": "A simple multi-tier PHP application",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.0",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
